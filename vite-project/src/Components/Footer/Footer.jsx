@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
+import '../assets/images/Logo.png'
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
         <div className="container d-flex collaps">
           <div className="icon-item">
             <div className="footerLogo">
-              <img src="" alt="logo" />
+              <img src='Logo.png' alt="logo" />
             </div>
             <div className="footer-contact_icons">
               <FontAwesomeIcon icon={faInstagram} className="icon" />

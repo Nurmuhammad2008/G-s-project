@@ -63,6 +63,15 @@ footer {
   padding: 40px 0 60px 0;
 }
 
+.footerLogo img {
+  width: 120px;
+  height: 100px;
+}
+
+.footerLogo {
+ 
+}
+
 @media screen and (min-width: 900px) {
   .icon-item {
     display: flex;
@@ -85,6 +94,10 @@ footer {
     width: 100%;
     padding: 20px 10px 20px 10px;
   }
+  .footerLogo img {
+    width: 30px;
+    height: 2 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -100,6 +113,10 @@ footer {
     width: 100%;
     padding: 20px 10px 20px 10px;
   }
+  .footerLogo img {
+    width: 60px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -111,5 +128,12 @@ footer {
     justify-content: space-between;
     width: 100%;
     padding: 20px 10px 20px 10px;
+  }
+  .footerLogo img {
+    width: 80px;
+    height: 60px;
+  }
+  .footer-contact_icons{
+   padding-bottom : 15px;
   }
 }

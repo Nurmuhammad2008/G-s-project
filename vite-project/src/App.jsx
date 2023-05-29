@@ -1,4 +1,5 @@
 import Footer from './Components/Footer/Footer'
+import Header from './Components/Header/Header'
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 
   return (
 <>
+
 <Footer/>
     </>
   )
