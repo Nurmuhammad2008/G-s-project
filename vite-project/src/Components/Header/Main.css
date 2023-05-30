@@ -1,0 +1,47 @@
+.info-num-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg__color{
+    background: #F2F8FF;
+}
+.width {
+    width: 250px;
+    padding: 20px;
+}
+
+.info-text {
+    text-align: center;
+    font-weight: bold;
+}
+.info-num {
+    text-align: center;
+}
+
+.golden_ser {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.information-golden-ser {
+      width: 400px;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: inset -1px 0px 0px #C4CDD5, inset 1px 0px 0px #C4CDD5;
+}
+
+.icons-center {
+    width: 82px;
+    height: 82px;
+}
+
+.information-golden-ser p {
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+
+
