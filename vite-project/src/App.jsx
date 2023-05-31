@@ -1,8 +1,7 @@
 import Footer from './Components/Footer/Footer'
-import CaruselSlide from './Components/Carusel/CaruselSlide'
 import Header from './Components/Header/Header'
 import './App.css'
-import Main from './Components/Header/Main'
+import Main from './Components/Main/Main'
 
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
   return (
     <>
       <Header/>
-      <CaruselSlide/>
       <Main/>
       <Footer/>
     </>

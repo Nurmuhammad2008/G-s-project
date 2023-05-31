@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css';
+import '.git /Main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import icon from '../assets/Icons/Group.png';
 import evaluateIcon from '../assets/Icons/evaluate.png';
