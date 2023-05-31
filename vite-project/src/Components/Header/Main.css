@@ -43,5 +43,41 @@
     font-size: 1.3rem;
 }
 
+.section-back-gr {
+    width: 100%;
+    height: 332px;
+    background: #F2F8FF;
+  }
+  
+  .text-email{
+    width: 550px;
+    margin-top: 64px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .text-email p {
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .input-mail-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+  }
+  
+  .enter-name-and-emai {
+    width: 240px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  
+  .email-request-btn {
+    width: 220px;
+    background: #4295E4;
+    border: solid #4295E4;
+  }
 
 

@@ -45,6 +45,22 @@ const Main = () => {
           </div>
         </div>
       </section>
+
+      <section className="section-back-gr">
+        <div className="d-flex justify-content-center">
+          <div className="text-email">
+            <h1>Мы Вам перезвоним</h1>
+            <p>Если у вас возникли какие-то вопросы или проблемы, заполните форму и мы Вам перезвоним.</p>
+          </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <div class="input-mail-btn">
+              <input className="enter-name-and-email" type="text" placeholder="   Ваше имя" />
+              <input className="enter-name-and-email" type="email" placeholder="   Ваш Email" />
+              <input className="email-request-btn" type="submit" value="Отправить" />
+          </div>
+        </div>
+      </section>
     </>
   )
 }
