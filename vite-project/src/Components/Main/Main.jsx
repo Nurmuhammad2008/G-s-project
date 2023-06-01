@@ -1,8 +1,9 @@
 import React from 'react';
-import '.git /Main.css';
+import './Main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import icon from '../assets/Icons/Group.png';
 import evaluateIcon from '../assets/Icons/evaluate.png';
+import pr1Image from '../assets/ProductsImage/pr1.png'
 
 const Main = () => {
   return (
@@ -45,6 +46,47 @@ const Main = () => {
           </div>
         </div>
       </section>
+
+        <section className='container'>
+           <h1 className='text-center'>Категории</h1> 
+           <div className='box-product'>
+            <div className='d-flex justify-content-around'>
+                <div className='product-bg-img'>
+                    <div className='btn-p-item'>
+                        <p>Для отелей</p>
+                        <button className='btn-go'>Перейти</button>
+                    </div>
+                </div>
+
+                <div className='product-bg-img-2'>
+                    <div className='btn-p-item'>
+                        <p>Для шкафчиков</p>
+                        <button className='btn-go'>Перейти</button>
+                    </div>
+                </div>
+            </div>  
+
+            <div className='d-flex justify-content-around mt-5'>
+                <div className='product-bg-img-3'>
+                    <div className='btn-p-item'>
+                        <p>Для офисов</p>
+                        <button className='btn-go'>Перейти</button>
+                    </div>
+                </div>
+
+                <div className='product-bg-img-4'>
+                    <div className='btn-p-item'>
+                        <p>Замки для дома</p>
+                        <button className='btn-go'>Перейти</button>
+                    </div>
+                </div>
+            </div> 
+
+            <div className='d-flex justify-content-center mb-5'>
+                <button className='btn-categore mt-5'>Все категории</button>  
+            </div>
+           </div>
+        </section>
 
       <section className="section-back-gr">
         <div className="d-flex justify-content-center">

@@ -80,4 +80,116 @@
     border: solid #4295E4;
   }
 
+.text-center {
+    margin-top: 50px;
+}
+
+.product-bg-img {
+    width: 600px;
+    height: 470px;
+    background-image: url(../assets/ProductsImage/pr1.png);
+}
+
+.product-bg-img p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.product-bg-img button {
+    width: 220px;
+    height: 50px;
+}
+
+.btn-p-item {
+    padding-top: 340px;
+    padding-left: 40px;
+}
+
+.product-bg-img-2 {
+    width: 600px;
+    height: 470px;
+    background-image: url(../assets/ProductsImage/pr2.png);
+}
+
+.product-bg-img-2 p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.product-bg-img-2 button {
+    width: 220px;
+    height: 50px;
+}
+
+.product-bg-img-3 {
+    width: 600px;
+    height: 470px;
+    background-image: url(../assets/ProductsImage/pr4.png);
+}
+
+.product-bg-img-3 p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.product-bg-img-3 button {
+    width: 220px;
+    height: 50px;
+}
+
+.product-bg-img-4 {
+    width: 600px;
+    height: 470px;
+    background-image: url(../assets/ProductsImage/pr3.png);
+}
+
+.product-bg-img-4 p {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.product-bg-img-4 button {
+    width: 220px;
+    height: 50px;
+}
+
+.btn-categore {
+    width: 220px;
+    height: 50px;
+    background: #4295E4;
+    color: white;
+    border: none;
+}
+
+.box-product {
+    margin-top: 80px;
+}
+
+.btn-go {
+    background-color: transparent;
+
+}
+
+.input-mail-btn input[type=text] {
+    background: rgba(22, 28, 36, 0.04);
+    border: none;
+    color:  #454F5B;
+}
+
+.input-mail-btn input[type=email] {
+    background: rgba(22, 28, 36, 0.04);
+    border: none;
+    color:  #454F5B;
+    
+}
+.enter-name-and-email {
+    padding: 5px 10px;
+}
+
+.email-request-btn {
+    color: white;
+    padding: 9px 10px;
+}
+
+
 
