@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
-import '../assets/images/Logo.png'
 
 const Footer = () => {
   return (
