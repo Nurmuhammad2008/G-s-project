@@ -68,10 +68,13 @@ footer {
   height: 100px;
 }
 
+<<<<<<< HEAD
 .nav-item ul li {
   align-items: center ;
 }
 
+=======
+>>>>>>> c5c082f6d73ac88fd1cd24a36531797d3a7b71ea
 @media screen and (min-width: 900px) {
   .icon-item {
     display: flex;
@@ -138,3 +141,4 @@ footer {
     padding-bottom: 15px;
   }
 }
+

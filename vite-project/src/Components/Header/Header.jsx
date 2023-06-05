@@ -9,7 +9,6 @@ import {
 import { Collapse, NavbarToggler } from "reactstrap";
 import Catalog from "../Catalog/Catalog";
 import  { useState } from "react";
-import "../assets/images/Logo.png";
 import "./Header.css";
 import { links } from "../Data/data";
 

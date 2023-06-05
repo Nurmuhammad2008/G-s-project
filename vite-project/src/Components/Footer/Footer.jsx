@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <>
+    <>  
       <footer>
         <div className="container d-flex collaps">
           <div className="icon-item">
