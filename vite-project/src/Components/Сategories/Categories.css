@@ -1,0 +1,14 @@
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+.button {
+    border: none;
+    background: rgba(66, 149, 228, 1);
+    color: white;
+    width: 200px;
+    height: 30px;
+}   

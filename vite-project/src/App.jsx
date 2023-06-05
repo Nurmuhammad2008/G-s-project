@@ -1,19 +1,14 @@
-import Footer from './Components/Footer/Footer'
-import About from './Components/About/about'
-import './App.css'
-
-
+import Footer from "./Components/Footer/Footer";
+import Categories from './Components/Сategories/Сategories'
+import "./App.css";
 
 function App() {
-
-
   return (
-<>
-<About />
-<Footer />
-    
+    <>
+      <Categories />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
