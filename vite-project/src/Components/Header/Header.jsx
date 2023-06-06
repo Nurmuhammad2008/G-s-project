@@ -73,7 +73,7 @@ const Header = () => {
           </div>
         </Collapse>
       </navbar>
-      <div className="popUp ">
+      <div className="popUp d-none ">
         <div className="popUp-text">
           <ul>
          <li>

@@ -1,4 +1,3 @@
-import Categoriesimg from "/src/images/Rectangle 728-2.png";
 
 export const links = [
   {
@@ -45,14 +44,22 @@ export const aboutContctImg = [
 ];
 
 const Cotegories_card = [
-  { id: 1, text: "Накладные электронные замки", imagePath: {Categoriesimg} },
-  { id: 2, text: "Врезные электроные замки", imagePath: "" },
-  { id: 3, text: "Замки для квартиры", imagePath: "" },
-  { id: 4, text: "Замки для дома", imagePath: "" },
-  { id: 5, text: "Замки для отелей", imagePath: "" },
-  { id: 6, text: "Замки для офиса", imagePath: "" },
-  { id: 7, text: "Замки для шкафчиков", imagePath: "" },
-  { id: 8, text: "Замки для раздевалок", imagePath: "" },
+  { id: 1, text: "Накладные электронные замки", imagePath:"/src/images/Rectangle 727-3 (2).png " },
+  { id: 2, text: "Врезные электроные замки", imagePath: "/src/images/Rectangle 727-3 (3).png " },
+  { id: 3, text: "Замки для квартиры", imagePath: "/src/images/Rectangle 727-2.png " },
+  { id: 4, text: "Замки для дома", imagePath: "/src/images/Rectangle 727-3 (1).png " },
+  { id: 5, text: "Замки для отелей", imagePath: "/src/images/Rectangle 728.png" },
+  { id: 6, text: "Замки для офиса", imagePath: "/src/images/Rectangle 728-1.png " },
+  { id: 7, text: "Замки для шкафчиков", imagePath: "/src/images/Rectangle 728-2.png"},
+  { id: 8, text: "Замки для раздевалок", imagePath: "/src/images/Rectangle 728-3.png" },
 ];
 
 export default Cotegories_card;
+
+
+ export const jobCard  = [
+        {id:1 ,title: "Оформление заявки",  text: "Вы оставляете заявку на сайте или связываетесь с нами по указанному на сайте номеру телефона" , imagePath:"/src/images/Shape.png" },
+        {id:2 ,title: "Согласование",  text: "Вы оставляете заявку на сайте или связываетесь с нами по указанному на сайте номеру телефона" , imagePath:"/src/images/Shape (1).png" },
+        {id:3 ,title: "Отправка товара и установка  ",  text: "Вы оставляете заявку на сайте или связываетесь с нами по указанному на сайте номеру телефона" , imagePath:"/src/images/Shape (2).png" }
+]
+

@@ -1,12 +1,10 @@
-import Footer from "./Components/Footer/Footer";
-import Categories from './Components/Сategories/Сategories'
+import Order from "./Components/Order_processing/Order";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Categories />
-      <Footer />
+      <Order />
     </>
   );
 }

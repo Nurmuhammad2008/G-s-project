@@ -2,32 +2,42 @@ import { Breadcrumb, BreadcrumbItem } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cotegories_card from "../Data/data";
 import "./Categories.css";
+import Footer from "../Footer/Footer";
 
 const Сategories = () => {
   return (
     <>
+    <section className="breadcrumb">
       <Breadcrumb>
         <BreadcrumbItem>
           <a href="#">Главная</a>
         </BreadcrumbItem>
         <BreadcrumbItem active>Каталог</BreadcrumbItem>
       </Breadcrumb>
-      <div className="Categories__products container text-center">
-        <div className="title">
+      </section>
+      <main className="Categories__products  text-center">
+        <div className="title p-5 text-center">
           <h1>Категории</h1>
         </div>
-        <div className="product-cards">
+        <div className="product-cards ">
           {Cotegories_card.map((card) => {
             return (
               <div key={card.id} className="card-product">
-                {card.imagePath}
-                {card.text}
+                <img src={card.imagePath} alt="img" />
+                <p>{card.text}</p>
               </div>
             );
           })}
+          <div className="button-container ">
+            <a href="#">
+              <button className="button">Смотреть все</button>
+            </a>
+          </div>
         </div>
-        <a href="#"><button className="button">Смотреть чощо</button></a>
-      </div>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

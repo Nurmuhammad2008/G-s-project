@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+
+.title-order_processing h2 {
+  width: 350px;
+  font-weight: 600;
+}
+
+.title-order_processing p {
+  width: 350px;
+  font-size: 14px;
+}
+
+.order_processing {
+  background: rgba(242, 248, 255, 1);
+}
+
+.form-order_processing {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.order {
+  margin: 0 auto;
+  padding: 80px 0 80px 0;
+}
+
+.input-text {
+  width: 373px;
+}
+
+.form-order_processing {
+  width: 700px;
+}
+
+.form-order_processing form label {
+  gap: 10px;
+  padding-right: 20px;
+}
+.form-order_processing form label input {
+  height: 40px;
+  border: 1px solid rgba(235, 236, 236, 1);
+}
+.title-order_processing p {
+  font-size: 16px;
+}
+
+.label {
+  padding-top: 20px;
+}
+
+.form-order_processing form label input::placeholder {
+  padding-left: 10px;
+}
+
+.form-order_processing h2 {
+  padding-bottom: 30px;
+}
+
+.icon {
+  color: rgba(66, 149, 228, 1);
+}
+
+.form-order_processing p span {
+  padding-right: 10px;
+}
+
+.order-form-items a button {
+  border: none;
+  color: white;
+  background: rgba(66, 149, 228, 1);
+  padding: 10px 30px;
+}
+
+.order-form-items p {
+  font-size: 12px;
+}
+
+.title-order_processing {
+  margin-top: 100px;
+}
+
+.job-card p {
+  font-size: 13px;
+}
+
+.job-card b {
+  font-size: 18px;
+  padding-left: 10px;
+  border-left: solid 3px rgba(66, 149, 228, 1);
+  margin-top: 40px;
+}
+.job-items {
+  padding: 80px 0;
+}
+.job-card {
+  width: 353px;
+}
+
+.job-card img {
+  width: 353px;
+}
+
+.job-items h1 {
+  padding-bottom: 60px;
+}
+
+.choose-text-icon {
+  border-radius: 50%;
+  border: 1px solid rgba(66, 149, 228, 0.3);
+  padding: 15px;
+}
+
+.choose-icon ul li b span {
+  margin-right: 20px;
+}
+
+.choose-text ul li p {
+  margin-left: 25px;
+  padding-left: 47px;
+  border-left: 1px solid rgba(66, 149, 228, 0.3);
+  margin-top: 10px;
+}
+.choose-text ul li b span {
+  padding-right: 20px;
+}
+
+.li-text {
+  border-left: none;
+}
+
+.choose-text {
+  width: 43%;
+  margin: 0 auto;
+}
+
+.choose-items {
+  background: rgba(242, 248, 255, 1);
+  padding: 100px 0;
+}
+
+.choose-text ul {
+  margin-top: 50px;
+}
+
+.corusel-items {
+  padding: 38px;
+  border: 1pz solid linear-gradient(0deg, #c4cdd5, #c4cdd5),
+  linear-gradient(0deg, #ffffff, #ffffff);;
+
+}
+
+
+.corusel-text p span {
+    padding-right: 10px;
+}
