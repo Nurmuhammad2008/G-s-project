@@ -3,9 +3,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 import { jobCard } from "../Data/data";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import "./Order.css";
 
 const Order = () => {
+  const spanColor = {
+    color: "rgba(66, 149, 228, 1)",
+  };
+  const font = {
+    fontSize: "24px",
+  };
+
   return (
     <>
       <Header />
@@ -167,41 +175,62 @@ const Order = () => {
             </div>
           </div>
         </section>
-        <section className="company">
+        <section className="company p-5">
           <div className="container">
             <h1>Наши крупные проекты</h1>
-            <div className="corusel-items d-flex ">
+            <div className="corusel-items d-flex justify-content-between mt-5 ">
               <div className="corusel-img">
                 <img src="/src/images/Image (1).png" alt="" />
               </div>
               <div className="corusel-text">
-                <img src="/src/images/radisson-dark 1.png" alt="" />
-                <b>Проект для гостинницы Radisson Hotels</b>
-                <p>
-                  <span>
-                    <FontAwesomeIcon className="icon" icon={faSquareCheck} />
-                  </span>
-                  Установлено 123 Вариативных замка Golden Soft для отеля
-                </p>
-                <p>
-                  <span>
-                    <FontAwesomeIcon className="icon" icon={faSquareCheck} />
-                  </span>
-                  Было нанесено личный брендинг на все замки{" "}
-                </p>
-                <p>
-                  <span>
-                    <FontAwesomeIcon className="icon" icon={faSquareCheck} />
-                  </span>
-                  Были проведны монтажные работы, также была произведена помощь
-                  в пкделючении замков к системе{" "}
-                </p>
-                <h2>Бюджет - <span> $5000</span></h2>
+                <img src="/src/images/radisson-dark 1.png" alt="" /> <br />
+                <div className="mt-4">
+                  <b>Проект для гостинницы Radisson Hotels</b>
+                  <p>
+                    <span>
+                      <FontAwesomeIcon className="icon" icon={faSquareCheck} />
+                    </span>
+                    Установлено 123 Вариативных замка Golden Soft для отеля
+                  </p>
+                  <p>
+                    <span>
+                      <FontAwesomeIcon className="icon" icon={faSquareCheck} />
+                    </span>
+                    Было нанесено личный брендинг на все замки{" "}
+                  </p>
+                  <p>
+                    <span>
+                      <FontAwesomeIcon className="icon" icon={faSquareCheck} />
+                    </span>
+                    Были проведны монтажные работы, также была произведена
+                    помощь в пкделючении замков к системе
+                  </p>
+                  <h2 style={font}>
+                    Бюджет - <span style={spanColor}> $5000</span>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
         </section>
+        <section className="question">
+          <div className="question-container container text-center">
+            <h1>Остались вопросы?</h1>
+            <p className="">
+              Если у вас возникли какие-то вопросы по поводу оптовых заказов,
+              заполните форму и мы Вам перезвоним.
+            </p>
+            <div className="question-inputs d-flex justify-content-center">
+              <input type="text" />
+              <input type="text" />
+              <a href="#"><button>Отправить</button></a>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

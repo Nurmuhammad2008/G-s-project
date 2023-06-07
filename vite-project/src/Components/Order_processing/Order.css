@@ -63,6 +63,7 @@
 
 .icon {
   color: rgba(66, 149, 228, 1);
+  font-size: 18px;
 }
 
 .form-order_processing p span {
@@ -157,4 +158,16 @@
 
 .corusel-text p span {
     padding-right: 10px;
+}
+.corusel-text {
+    margin-left: 20px;
+}
+.corusel-text {
+    line-height: 30px;
+    width: 477px;
+}
+
+.corusel-items {
+    padding: 64px ;
+    border: 1px solid rgba(196, 205, 213, 1)
 }

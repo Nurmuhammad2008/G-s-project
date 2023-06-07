@@ -7,7 +7,6 @@ import {
   faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { Collapse, NavbarToggler } from "reactstrap";
-import Catalog from "../Catalog/Catalog";
 import  { useState } from "react";
 import "./Header.css";
 import { links } from "../Data/data";
@@ -80,7 +79,7 @@ const Header = () => {
          {links.map((link) => (
         <a
           key={link.id}
-          href={<Catalog />}
+          href=""
           onMouseEnter={() => handleLinkClick(link.imagePath)}
           className="popUp-link"
         >
@@ -90,7 +89,7 @@ const Header = () => {
        {selectedImage && <img src={selectedImage} alt="Изображение" />}
          </li>
             <li>
-              <a href={<Catalog />}>
+              <a href="">
                 <button className="popUpButton">Смотреть все</button>
               </a>
             </li>

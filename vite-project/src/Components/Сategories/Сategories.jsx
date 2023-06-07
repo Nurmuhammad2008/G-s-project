@@ -1,7 +1,6 @@
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cotegories_card from "../Data/data";
-import "./Categories.css";
 import Footer from "../Footer/Footer";
 
 const Сategories = () => {
@@ -28,7 +27,7 @@ const Сategories = () => {
               </div>
             );
           })}
-          <div className="button-container ">
+          <div className="button-container d-flex">
             <a href="#">
               <button className="button">Смотреть все</button>
             </a>
