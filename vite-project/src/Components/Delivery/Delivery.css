@@ -1,0 +1,29 @@
+
+.main_src {
+    text-decoration: none;
+    color: black;
+}
+
+.images-content {
+    width: 393px;
+    height: 212px;
+}
+
+.right {
+    margin-right: 1rem;
+    
+}
+
+.hr_line {
+    margin-top: 190px;
+}
+
+.text-dot::before {
+    content: "\2022 \00A0";
+    color: #4295E4;
+    
+}
+
+.text-dot {
+    width: 65%;
+}
